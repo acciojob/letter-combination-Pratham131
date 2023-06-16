@@ -22,8 +22,8 @@ function letterCombinations(input) {
 		// table["3"] = "def"
 		for (let i = 0; i < table[currentChar].length; i++) {
 			//def
-			solve(currentIndex+1, calculatedString+table[currentChar])
-			// solve (0+1m "" + "d")
+			solve(currentIndex+1, calculatedString+table[currentChar][i])
+			// solve (0+1, "" + "d")
 		}
 	}
 
